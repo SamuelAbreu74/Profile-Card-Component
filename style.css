@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    
+    /* Colors =-=-=-=-=--=-=-=-=-= */
+
+    /* Primary */
+    --blue-600: hsl(185, 75%, 39%);
+    --navy-950: hsl(229, 23%, 23%);
+    --gray-500: hsl(227, 10%, 46%);
+
+    /* Neutral */
+    --gray-100: hsl(225, 10%, 92%);
+
+
+    /* Typography =-=-=-=-=--=-=-= */
+    
+    /* Body copy */
+    --name-and-stats-size: 18px
+}
+
+
 * {
     padding: 0;
     margin: 0;
