@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Profile card component</title>
 
 </head>
+
 <body>
 
   <main>
-    <!-- Background Card Section -->
-    <section>
-      <img src="images/bg-pattern-card.svg" alt="background-pattern-card">
-    </section>
-
     <!-- Profile Section -->
-    <section>
-      <!-- Main Info Div -->
-      <div>
-        <!-- Image Container -->
-        <div>
-          <img src="images/image-victor.jpg" alt="profile-image">
-        </div>
-        <h1>Victor Crest</h1>
+    <section class="profile-section">
+      <img src="images/bg-pattern-card.svg" alt="background-pattern-card">
+      <div class="profile-img-container">
+        <img src="images/image-victor.jpg" alt="profile-image">
+        <h1>Victor Crest <span>26</span></h1>
         <p>London</p>
       </div>
+    </section>
 
+    <!-- Profile Stats -->
+    <section>
       <!-- Stats Div -->
       <div>
         <!-- Followers -->
@@ -50,7 +47,7 @@
           <p>Photos</p>
         </div>
       </div>
-      
+
     </section>
 
   </main>
@@ -72,4 +69,5 @@
     Coded by <a href="#">Your Name Here</a>.
   </footer> -->
 </body>
+
 </html>
